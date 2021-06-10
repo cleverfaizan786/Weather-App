@@ -11,7 +11,7 @@ i.setAttribute("style","position:relative; top:300px; left:185px; font-size:55px
 spinner.setAttribute("style"," opacity:0.7;")
 const SearchCity=()=>{
 
-fetch(`http://api.openweathermap.org/data/2.5/weather?q=${SearchBar.value}&appid=23734a33036058c97348c92bc115c385`).then(response=> response.json(),spinner.appendChild(i)
+fetch(`http://api.openweathermap.org/data/2.5/weather?q=${SearchBar.value}&appid=Your_APIKEY`).then(response=> response.json(),spinner.appendChild(i)
 )
 .then(function (data) {
 
