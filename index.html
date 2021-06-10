@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Weather App</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@474&family=Arvo&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h2 id="MainHeading">Weather App</h2>
+
+
+<input type="text" id="SearchBar" placeholder="Enter city Name"/>
+<i class="fa fa-search" id="search" aria-hidden="true" onclick="SearchCity()"></i> 
+
+<div id="Container">
+<h2 id="city">City Name</h2>
+<h3 id="Weather">Description : <span id="descript">None</span></h3> 
+<h3 id="Temperature">Temperature : <span id="temp">None</span></h3>
+<h3 id="Pressure">Pressure : <span id="pascal">None</span></h3>
+<h3 id="Humidity">Humidity : <span id="humid">None</span></h3>
+</div>
+
+<div id="spinner">
+  
+  
+</div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
