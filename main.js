@@ -119,39 +119,3 @@ humid.innerHTML=data.main.humidity;
 
 
 
-
-
-
-
-/*
-
-function postData(){
-  let myobj = {
-  
-    cat: "riyan",
-    nouman: "merabhai",
-    fetch: "working"
-  
-  
-  
-  }
-
-const options={
-method:'POST',
-headers:{
-'Content-Type':'application/json' 
-  
-},
-
-body:JSON.stringify(myobj),
-
-} 
-  
-fetch('https:reqres.in/api/usersoptions',options).then(response=> response.json()).then(data=>console.log(data)).catch(err=> console.log("some error has occurred to fetch"))
-
-  
-  
-  
-}
-postData();
-*/
